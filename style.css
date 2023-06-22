@@ -9,9 +9,18 @@ header {
   background-color: black;
 }
 
-.header-container {
+.header-cont {
   width: 100%;
   min-height: 50px;
   color: white;
   text-align: end;
+}
+
+.speak-cont,
+.cross-cont {
+  display: inline-block;
+  background-color: rgba(115, 115, 115, 0.5);
+  border-radius: 5px;
+  margin: 5px 5px;
+  padding: 2px 4px;
 }
