@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
 }
 
 header {
@@ -74,7 +75,7 @@ FOOTER
 */
 
 footer {
-  background-color: gray;
+  background-color: #222222;
 }
 
 .foot-cont {
@@ -97,7 +98,7 @@ footer {
 }
 
 .block-2 {
-  min-width: 30%;
+  min-width: 35%;
   height: auto;
   border: 1px dashed orange;
   display: flex;
@@ -118,6 +119,7 @@ footer {
   display: flex;
   justify-content: center;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .cam-block {
@@ -126,6 +128,7 @@ footer {
   border: 1px dashed rgb(255, 0, 0);
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .small-block1 {
@@ -134,13 +137,6 @@ footer {
   border: 1px dashed rgb(0, 255, 42);
   text-align: center;
   padding: 5px 5px;
-}
-
-.text {
-  font-size: 8px;
-}
-.arrow {
-  font-size: 8px;
 }
 
 .small-block2 {
@@ -158,6 +154,13 @@ footer {
   min-width: 12%;
   height: 100%;
   border: 1px dashed rgb(0, 255, 42);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0 8px;
+  cursor: pointer;
+  text-align: center;
 }
 
 /*BLOCK -3 inside structure*/
@@ -170,5 +173,29 @@ footer {
   align-items: center;
   justify-content: center;
   font-size: 10px;
-  color: red;
+  color: rgb(255, 255, 255);
+  background-color: #0073ff;
+  font-weight: bold;
+}
+
+.right-block:hover {
+  color: #0073ff;
+  background-color: rgb(255, 255, 255);
+}
+
+/* ## Utility # */
+.text {
+  font-size: 8px;
+}
+
+.arrow {
+  font-size: 8px;
+}
+
+.midconts.arrows {
+  min-width: 5%;
+}
+
+.small-block2.arrows {
+  min-width: 8%;
 }
