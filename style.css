@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: black;
+}
+
+.header-container {
+  width: 100%;
+  min-height: 50px;
+  color: white;
+  text-align: end;
+}
