@@ -25,3 +25,26 @@ header {
   margin: 5px 5px;
   padding: 2px 4px;
 }
+
+/*
+MAIN
+*/
+
+.photo-cont {
+  width: 1200px;
+  min-height: 350px;
+  margin: 10px auto 20px auto;
+  border: 2px dashed rgb(0, 145, 46);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  gap: 8px;
+}
+
+.card {
+  width: 12%;
+  height: 80px;
+  border: 2px dashed red;
+}
